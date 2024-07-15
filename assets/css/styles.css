@@ -1,0 +1,66 @@
+/* assets/css/styles.css */
+
+/* Estilos globais */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos do menu */
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu nav ul {
+  list-style: none;
+  display: flex;
+  margin-right: 45px;
+  padding: 0;
+}
+
+.menu nav ul li {
+  margin-left: 20px;
+}
+
+.menu nav ul li:hover {
+  transition: ease-in-out;
+  border-bottom: 1px solid #000000;
+}
+
+/* Estilos do conteúdo */
+.content {
+  margin-top: 60px; /* Igual à altura do menu */
+  padding: 20px;
+}
+
+/* Estilos das seções */
+section {
+  padding: 20px;
+  margin: 20px 0;
+}
+
+/* Estilos do rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-top: 1px solid #ccc;
+}
