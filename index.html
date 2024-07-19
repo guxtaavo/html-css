@@ -45,11 +45,24 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nulla nesciunt praesentium aliquid? Explicabo quo ducimus fuga et voluptate! Ab hic exercitationem vero aspernatur tempore? Aliquid, earum. Exercitationem, ea doloremque.
         </section>
         <section id="form">
-            <form action="#">
-                <h1>Contact form</h1>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, ad esse. Dolorem doloribus, enim expedita, assumenda neque atque ratione autem rem sequi qui cumque amet temporibus aperiam sunt possimus magni.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe mollitia facilis minus animi molestiae laudantium, rem corrupti enim exercitationem expedita blanditiis autem nulla aliquam. Doloribus eum excepturi repellendus fugiat laboriosam.
-            </form>
+            <h1>Contact</h1>
+            <form action="/pagina-processa-dados-do-form" method="post">
+                <div>
+                  <label for="nome">Nome:</label>
+                  <input type="text" id="nome" name="usuario_nome" />
+                </div>
+                <div>
+                  <label for="email">E-mail:</label>
+                  <input type="email" id="email" name="usuario_email" />
+                </div>
+                <div>
+                  <label for="msg">Mensagem:</label>
+                  <textarea id="msg" name="usuario_msg"></textarea>
+                </div>
+                <div class="button">
+                  <button type="submit">Enviar sua mensagem</button>
+                </div>
+              </form>
         </section>
     </div>
     <footer>
