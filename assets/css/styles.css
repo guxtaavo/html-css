@@ -76,11 +76,8 @@ footer {
   border-top: 1px solid #292929;
 }
 
-/* Estilos do ícone de copyright */
-#icon_copyright {
-  width: 12px;
-  height: 12px;
-  vertical-align: middle;
+#info ul li{
+  padding: 4px;
 }
 
 /* Estilos do formulário */
@@ -144,7 +141,7 @@ footer {
 #photos {
   text-align: left;
   margin-bottom: 20px; /* Adiciona margem inferior */
-  border-bottom: 2px solid #d3d3d3; /* Borda inferior cinza claro */
+  border-bottom: 1px solid #292929;
   padding-bottom: 20px; /* Adiciona padding inferior para espaçamento */
 }
 
