@@ -82,7 +82,7 @@ footer {
 
 /* Estilos do formulário */
 #form {
-  background: #fff;
+  background: #ffffff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -98,6 +98,8 @@ footer {
 
 #form div {
   margin-bottom: 15px;
+  margin-right: 5px;
+  align-items: center;
 }
 
 #form label {
@@ -125,7 +127,7 @@ footer {
 }
 
 #form button {
-  background-color: #007BFF;
+  background-color: #000000;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -135,7 +137,7 @@ footer {
 }
 
 #form button:hover {
-  background-color: #0056b3;
+  background-color: #545454;
 }
 
 #photos {
