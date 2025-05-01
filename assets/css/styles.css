@@ -48,10 +48,9 @@ a {
   color: #ffffff; /* Define a cor da fonte como branca */
 }
 
-.menu nav ul li:hover {
-  color: #cccccc; /* Opcional: altera a cor ao passar o mouse */
-  transition: ease-in-out;
-  border-bottom: 1px solid #000000;
+.menu nav ul li a:hover {
+  transition: border-bottom 0.3s ease-in-out;
+  border-bottom: 1px solid #a0a0a0;
 }
 
 /* Estilos do conteúdo */
